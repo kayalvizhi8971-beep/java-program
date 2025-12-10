@@ -1,0 +1,8 @@
+class Main{
+    public static void main(String[] args) {
+       float a = 5.5f;
+       String b = "flower";
+       String c = a + b;
+         System.out.println(c);
+    }
+}
