@@ -1,0 +1,13 @@
+public class Main{
+    public static void main(String[]arge){
+        Dog d=new Dog();
+        System.out.println("Animal Name:"+d.eat);
+        System.out.println("Dog is Hunting a:"+d.hunt);
+    }
+}
+class Animal{
+    String eat="Dog";
+}
+class Dog extends Animal{
+    String hunt="Cat";
+}
